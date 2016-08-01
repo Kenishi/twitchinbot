@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Class-Path: selenium-java-2.53.1.jar snakeyaml-1.17.jar pircbotx-2.1.j
+ ar json-20160212.jar phantomjsdriver-1.3.0.jar selenium-chrome-driver
+ -2.53.1.jar selenium-edge-driver-2.53.1.jar htmlunit-driver-2.21.jar 
+ selenium-firefox-driver-2.53.1.jar selenium-ie-driver-2.53.1.jar sele
+ nium-safari-driver-2.53.1.jar selenium-support-2.53.1.jar selenium-le
+ g-rc-2.53.1.jar commons-lang3-3.4.jar slf4j-api-1.7.13.jar commons-co
+ dec-1.10.jar guava-19.0.jar cglib-nodep-2.1_3.jar gson-2.3.1.jar comm
+ ons-exec-1.3.jar jna-4.1.0.jar jna-platform-4.1.0.jar commons-logging
+ -1.2.jar commons-io-2.4.jar htmlunit-2.21.jar commons-collections-3.2
+ .2.jar netty-3.5.7.Final.jar xalan-2.7.2.jar httpmime-4.5.2.jar htmlu
+ nit-core-js-2.17.jar neko-htmlunit-2.21.jar cssparser-0.9.18.jar webs
+ ocket-client-9.2.15.v20160210.jar serializer-2.7.2.jar xercesImpl-2.1
+ 1.0.jar sac-1.3.jar jetty-util-9.2.15.v20160210.jar jetty-io-9.2.15.v
+ 20160210.jar websocket-common-9.2.15.v20160210.jar xml-apis-1.4.01.ja
+ r websocket-api-9.2.15.v20160210.jar selenium-remote-driver-2.53.1.ja
+ r httpclient-4.5.2.jar selenium-api-2.53.1.jar httpcore-4.4.4.jar
+Main-Class: com.aberdynic.twitchin.Main
+

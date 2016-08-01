@@ -1,0 +1,8 @@
+*.class
+.DS_Store
+*.yml
+.idea
+.gradle
+*.log
+gradlew*
+gradle/*

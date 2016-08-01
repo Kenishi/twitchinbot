@@ -4,7 +4,6 @@ import com.aberdynic.twitchin.bots.Bot;
 import com.aberdynic.twitchin.drivers.DriverType;
 import com.aberdynic.twitchin.drivers.Twitch;
 import com.aberdynic.twitchin.drivers.WPC;
-import org.apache.commons.collections.map.HashedMap;
 import org.pircbotx.Colors;
 
 import java.io.IOException;

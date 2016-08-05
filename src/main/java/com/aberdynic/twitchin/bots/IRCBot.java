@@ -60,6 +60,7 @@ public class IRCBot extends ListenerAdapter implements Bot, Runnable {
     @Override
     public void onJoin(JoinEvent event) throws Exception {
         super.onJoin(event);
+        System.out.println("Joined: " + event.getChannel().getName());
 
         UserChannelDao dao = this.instance.getUserChannelDao();
         Set<Channel> channels = dao.getAllChannels();
@@ -81,6 +82,7 @@ public class IRCBot extends ListenerAdapter implements Bot, Runnable {
         }
 
         if(readyToAnnounce && !this.ready.isDone()) {
+            System.out.println("Bot is ready");
             this.ready.complete(Boolean.TRUE);
         }
     }

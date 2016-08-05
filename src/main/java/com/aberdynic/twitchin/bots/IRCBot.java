@@ -68,7 +68,7 @@ public class IRCBot extends ListenerAdapter implements Bot, Runnable {
         for(String name : config.getChannels()) {
             boolean found = false;
             for(Channel chan : channels) {
-                if(chan.getName().equals(name)) {
+                if(chan.getName().toLowerCase().equals(name.toLowerCase())) {
                     found = true;
                     break;
                 }

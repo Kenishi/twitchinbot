@@ -38,9 +38,11 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException, IrcException {
+        String path = args[0];
+
         // Load config file and get targets to scrap
         Yaml yaml = new Yaml();
-        FileInputStream stream = new FileInputStream("./config.yml");
+        FileInputStream stream = new FileInputStream(path);
         Object loadedObject = yaml.load(stream);
         if(loadedObject instanceof String) {
             System.out.println(loadedObject);
